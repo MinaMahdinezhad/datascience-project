@@ -5,9 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3991690c-0952-4e88-916b-2e54373dbd93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/research/1_data_ingestion.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/research/2_data_validation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/research/3_data_transformation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/research/4_model_trainer.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/research/5_model_evaluation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datascience/components/data_ingestion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datascience/components/data_transformation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datascience/components/data_validation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datascience/components/model_evaluation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datascience/components/model_trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datascience/pipeline/data_ingestion_pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datascience/pipeline/data_transformation_pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datascience/pipeline/data_validation_pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datascience/pipeline/model_evaluation_pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datascience/pipeline/model_trainer_pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datascience/pipeline/prediction_pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/params.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/params.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/research/research.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/research/research.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schema.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/schema.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datascience/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/datascience/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datascience/config/configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/datascience/config/configuration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datascience/constants/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/datascience/constants/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datascience/entity/config_entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/datascience/entity/config_entity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datascience/utils/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/datascience/utils/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.py" beforeDir="false" afterPath="$PROJECT_DIR$/template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -24,9 +56,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="3BoagFVXB3BUu8b3jTpdf91MEhh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,11 +66,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true"
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/DELL/Desktop/mina/MLops/code/17-datascience deployment"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -57,5 +91,15 @@
       <updated>1775157986601</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
